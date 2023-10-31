@@ -1,2 +1,4 @@
 # WiFi QR code generator
 A QR code is super useful for a home network if you want to use complicated passwords.  The idea came about when I found https://sleeplessbeastie.eu/2022/06/15/how-to-generate-qr-code-to-access-the-wi-fi-network/.  But many WiFi routers allow for multiple networks, pointing toward the need for multiple QR codes.  To differentiate these QR codes, add a center graphic for each network.  Included here are graphics for 2.4GHz and a 5GHz networks.  The code for adding the graphic is based on: https://www.geeksforgeeks.org/how-to-generate-qr-codes-with-a-custom-logo-using-python/
+
+The current code is not especially user friendly and requires manually adding SSIDs and passwords to `wifi-qrcode.py`.
